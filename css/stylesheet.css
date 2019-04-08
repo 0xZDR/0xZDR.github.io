@@ -1,0 +1,67 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+h1 {
+  font-family: 'Roboto Slab', sans-serif;
+}
+.list-group-item {
+  border: none
+}
+.general-icon {
+  margin-left: 20px;
+  margin-top: 3px;
+  margin-right: 3px;
+  margin-bottom: 10px;
+  width: 50px;
+  height: auto
+}
+.status {
+  padding: 80px 0 60px 0;
+  background-image: url("./img/header_img/header_img.png");
+  background-color: #f4f4f4;
+}
+.status-icon {
+  margin-right: 4px;
+  width: 20px;
+  height: auto;
+}
+.status-bar {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.status-bar li {
+  background-color: rgba(255,255,255,0.2);
+}
+.company-title {
+  margin-left: 10px
+}
+.name {
+  margin-top: 30px;
+  font-size: 88px;
+  font-family: 'Roboto Slab', serif;
+}
+.profile-img {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 150px;
+  height: auto;
+}
+small {
+  color: #888;
+}
+.resume-body {
+  margin-top: 60px;
+}
+.resume-body-title {
+  margin-top: 50px;
+  margin-bottom: 6px;
+}
+.footer-icon {
+  margin-top: 10px;
+  height: 60px;
+}
+.footer {
+  margin-top: 60px;
+  height: 80px;
+  background-image: url("./img/footer_img/footer_img.png");
+}
