@@ -4,7 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Daran Zhang</title>
+    <title>Daran Zhang Resume</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link rel="icon" href="./img/favicon.png" />
@@ -18,8 +18,8 @@
     <div class="container-fluid status">
       <div class="container">
         <div class="row">
-          <div class='col-sm-12  col-md-12  col-lg-2  col-xl-2'>
-            <img src="./img/profile_img/me.jpeg" alt="profile img" class="profile-img rounded-circle">
+          <div class='col-sm-12  col-md-12  col-lg-1  col-xl-1'>
+            <!-- <img src="./img/profile_img/me.jpeg" alt="profile img" class="profile-img rounded-circle"> -->
           </div>
           <div class='col-sm-12  col-md-12  col-lg-7  col-xl-7 name'>
             <b>Daran Zhang</b>
@@ -38,12 +38,12 @@
               <img src="./img/status_icons/address.png" alt="address" class="status-icon">
               <b>Seattle, Washington</b>
             </li>
-            <li class="list-group-item">
+            <!-- <li class="list-group-item">
               <a class="btn btn-primary" href="./static/files/Daran_Zhang_Resume.pdf" role="button">
                 <img src="./img/status_icons/resume.png" alt="resume" class="status-icon">
-                <b>Download my resume</b>
+                <b>Download resume</b>
               </a>
-            </li>
+            </li> -->
           </div>
         </div>
       </div>
@@ -63,7 +63,7 @@
           </div>
         </div>
       </div>
-
+<!-- 
       <div class="row resume-body-title">
         <div class='col-12'>
           <h1>CORE COMPETENCIES</h3>
@@ -88,7 +88,7 @@
             <li class="list-group-item">&bull;Project Implementations </li>
           </div>
         </div>
-      </div>
+      </div> -->
 
       <div class="row resume-body-title">
         <div class='col-12'>
@@ -98,9 +98,61 @@
 
       <div class="card border-right-0 border-left-0 border-bottom-0 rounded-0 mb-3">
         <div class="card-body">
-          <h5 class="card-title">
+          <h4 class="card-title">
+            Software Development Engineer
+          </h4>
+
+          <div class="row">
+            <div class="float-left">
+              <img src="./img/company_icons/amazon.png" alt="oracle" class="rounded general-icon">
+            </div>
+            <div class="float-left company-title">
+              <h6 class="card-title">
+                Amazon
+              </h6>
+              <h6 class="card-subtitle mb-2 text-muted">
+                7/2019 to Current
+              </h6>
+            </div>
+          </div>
+
+          <p class="card-text">
+            <p>
+              <small>
+                * Selected achievements
+              </small>
+            </p>
+            <div>
+              <b>Project: Deemphasize buy button for Kindle detail page.</b>
+              <ul>
+                <li>Design and implementation.</li>
+                <li>Research on previous business requirements and ensure the compatibility.</li>
+                <li>This feature increased the borrow rate for subscribed customers.</li>
+              </ul>
+            </div>
+            <div>
+              <b>Project: Adding download link for Kindle detail page.</b>
+              <ul>
+                <li>Refactored heavily nested code (20+ cases) to make the implementation possible.</li>
+                <li>This change made the implementation feasible.</li>
+              </ul>
+            </div>
+            <div>
+              <b>Project: Adding new tag for books (not launched yet).</b>
+              <ul>
+                <li>Design and implementation.</li>
+                <li>Communicate with multiple teams for new feature onboarding.</li>
+              </ul>
+            </div>
+          </p>
+        </div>
+      </div>
+
+      <div class="card border-right-0 border-left-0 border-bottom-0 rounded-0 mb-3">
+        <div class="card-body">
+          <h4 class="card-title">
             Solution Engineer
-          </h5>
+          </h4>
 
           <div class="row">
             <div class="float-left">
@@ -122,26 +174,29 @@
                 * Selected achievements
               </small>
             </p>
-            <li>
-              Created Oracle Cloud demo with Cozmo for delivery service. <b id="toggle_demo">Click for demo</b>
-              <br>
-              <iframe id="demo" width="640" height="360" src="https://www.youtube.com/embed/Cff_1yvM8mE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </li>
-            <li>
-              Helping the teammates on emerging to working tasks.
-            </li>
-            <li>
-              Helped customers to overcome difficult tasks utilizing Oracle Cloud service.
-            </li>
+            <div>
+              <b>Project: Oracle Cloud with Cozmo robot demo.</b>
+              <ul>
+                <li>Side project to demonstrate the possibilities with Oracle Cloud</li>
+                <!-- <iframe width="640" height="360" src="https://www.youtube.com/embed/Cff_1yvM8mE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+              </ul>
+            </div>
+            <div>
+              <b>Project: Oracle Cloud POC for Kaiser</b>
+              <ul>
+                <li>Configuration database services with management softwares</li>
+                <li>This POC helped on closing the multi-million deal.</li>
+              </ul>
+            </div>
           </p>
         </div>
       </div>
  
       <div class="card border-right-0 border-left-0 border-bottom-0 border-top-0 rounded-0 mb-3">
         <div class="card-body">
-          <h5 class="card-title">
+          <h4 class="card-title">
             BACKEND DEVELOPER
-          </h5>
+          </h4>
 
           <div class="row">
             <div class="float-left">
@@ -152,7 +207,10 @@
                 Pusic
               </h6>
               <h6 class="card-subtitle mb-2 text-muted">
-                8/2017 to 11/2017
+                8/2017 to 11/2017               
+                <small>
+                  * Ended employment to relocate to United States
+                </small>
               </h6>
             </div>
           </div>
@@ -160,31 +218,34 @@
           <p class="card-text">
             <p>
               <small>
-                * Ended employment to relocate to United States
-              </small>
-              <br>
-              <small>
                 * Selected achievements
               </small>
             </p>
-            <li>
-              Implement features for a news feed application.
-            </li>
-            <li>
-              Designed and implemented ‘breaking news’ internal API feature coupled with a content management system.
-            </li>
-            <li>
-              Solved timeline cover image positioning issue by creating new RPC service with a 3rd-party facial recognition library and allowing the service to process over 100K pictures per day by applying multi process structure.
-            </li>
+            <div>
+              <b>Project: News Feed Management System with Visualization</b>
+              <ul>
+                <li>Design and implement the system from front-end to back-end.</li>
+                <li>Made intuitive visualization possible for team to manage news contents.</li>
+                <li>Increased team development speed.</li>
+              </ul>
+            </div>
+            <div>
+              <b>Project: A/B Test System</b>
+              <ul>
+                <li>Design and implement the back-end of a preliminary A/B system.</li>
+                <li>The system utilized caching to lower the latency.</li>
+                <li>The system is used by 2 teams once finished.</li>
+              </ul>
+            </div>
           </p>
         </div>
       </div>
 
       <div class="card border-right-0 border-left-0 border-bottom-0 border-top-0 rounded-0 mb-3">
         <div class="card-body">
-          <h5 class="card-title">
+          <h4 class="card-title">
             FULL STACK DEVELOPER
-          </h5>
+          </h4>
 
           <div class="row">
             <div class="float-left">
@@ -201,16 +262,27 @@
           </div>
 
           <p class="card-text">
-            <li>
-              Develop new features, utilizing MySQL, Node.js, python, and micro-service structure.
-            </li>
-            <small>* Selected achievements</small>
-            <li>
-              Installed alarms via AWS CloudWatch and performed usability testing via 3rd-party platform to maintain 99.9% functionality of website while enhancements and coding changes were implemented.
-            </li>
-            <li>
-              Shortened 31% loading time of integrated single-page APP by setting benchmarks and optimizing static files, CDN content compression, and local cache tools.
-            </li>
+            <p>
+              <small>
+                * Selected achievements
+              </small>
+            </p>
+            <div>
+              <b>Project: Competition System</b>
+              <ul>
+                <li>Involved in design and implementation of the competition micro-service.</li>
+                <li>The service provides competitions for 100+K users every month.</li>
+              </ul>
+            </div>
+            <div>
+              <b>Project: Web App Latency Optimization</b>
+              <ul>
+                <li>Analyze web app loading time, create base line</li>
+                <li>Optimize loading by properly distributing static files.</li>
+                <li>Optimize loading by adopting proper http headers.</li>
+                <li>This optimization lowered the first page loading time by 31%.</li>
+              </ul>
+            </div>
           </p>
         </div>
       </div>
@@ -237,9 +309,14 @@
 
           <p class="card-text">
             <small>* Selected achievements</small>
-            <li>
-              Liaised with accounting executives to design and execute new bookkeeping software features that streamlined multiple processes and enabled daily profit/loss performance reporting.
-            </li>
+            <div>
+              <b>Project: Bookkeeping System</b>
+              <ul>
+                <li>Corporate with accountant, analyze requirements and design/implement an automatic bookkeeping system.</li>
+                <li>Developed back-end and front-end.</li>
+                <li>This project helped on lifting the manual effort on tracking day to day transactions.</li>
+              </ul>
+            </div>
           </p>
         </div>
       </div>
@@ -258,7 +335,7 @@
             </div>
             <div class="float-left company-title">
               <h5 class="card-title">
-                <b>Master of Information Technology</b>, 2015
+                <b>Master of Information Technology</b>, 2014 - 2015
               </h5>
               <h6 class="card-title">
                 University of New South Wales (UNSW), Sydney, Australia
@@ -276,7 +353,7 @@
             </div>
             <div class="float-left company-title">
               <h5 class="card-title">
-                <b>Bachelor of Mathematics and Economics</b>, 2012
+                <b>Bachelor of Mathematics/Bachelor of Economics/Business Minor</b>, 2007 - 2012
               </h5>
               <h6 class="card-title">
                 University of Colorado, Boulder
@@ -366,7 +443,8 @@
     </div>
     <div class="container-fluid footer">
       <div class="float-right">
-        <img src="./img/footer_img/footer_icon.png" class="footer-icon">
+        <!-- <img src="./img/footer_img/footer_icon.png" class="footer-icon"> -->
+        <b>Last Update: 10/14/2020</b>
       </div>
     </div>
 

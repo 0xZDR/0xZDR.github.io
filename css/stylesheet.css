@@ -1,7 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
-h1 {
+h1, h4, .footer {
   font-family: 'Roboto Slab', sans-serif;
 }
 .list-group-item {
