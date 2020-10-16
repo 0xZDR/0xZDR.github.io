@@ -65,3 +65,7 @@ small {
   height: 80px;
   background-image: url("./img/footer_img/footer_img.png");
 }
+#demo-video {
+  max-width: 480px;
+  min-height: 320px;
+}
