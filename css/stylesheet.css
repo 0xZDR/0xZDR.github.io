@@ -1,11 +1,23 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Khand', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
 }
 h1, h4, .footer {
-  font-family: 'Roboto Slab', sans-serif;
+  font-weight: 600;
+  font-family: 'Khand', sans-serif;
+}
+h4 {
+  font-size: 32px;
+}
+h6 {
+  font-size: 20px;
 }
 .list-group-item {
-  border: none
+  border: none;
+  font-family: 'Khand', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
 }
 .general-icon {
   margin-left: 20px;
@@ -16,13 +28,13 @@ h1, h4, .footer {
   height: auto
 }
 .status {
-  padding: 80px 0 60px 0;
+  padding: 20px 0 20px 0;
   background-image: url("./img/header_img/header_img.png");
   background-color: #f4f4f4;
 }
 .status-icon {
   margin-right: 4px;
-  width: 20px;
+  width: 14px;
   height: auto;
 }
 .status-bar {
@@ -38,7 +50,7 @@ h1, h4, .footer {
 .name {
   margin-top: 30px;
   font-size: 88px;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Khand', sans-serif;
 }
 .profile-img {
   margin-top: 20px;
@@ -68,4 +80,22 @@ small {
 #demo-video {
   max-width: 480px;
   min-height: 320px;
+}
+.card-title {
+  margin-top: 3px;
+  font-weight: 600;
+}
+.card-text {
+  font-family: 'Roboto', serif;
+  font-weight: 300;
+}
+.card li {
+  font-family: 'Roboto', serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+.project-title {
+  margin-top: 3px;
+  font-weight: 600;
+  font-size: 22px;
 }
