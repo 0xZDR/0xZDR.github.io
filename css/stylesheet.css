@@ -86,11 +86,11 @@ small {
   font-weight: 600;
 }
 .card-text {
-  font-family: 'Roboto', serif;
+  font-family: 'Roboto Condensed', serif;
   font-weight: 300;
 }
 .card li {
-  font-family: 'Roboto', serif;
+  font-family: 'Roboto Condensed', serif;
   font-weight: 300;
   font-size: 16px;
 }
@@ -98,4 +98,7 @@ small {
   margin-top: 3px;
   font-weight: 600;
   font-size: 22px;
+}
+li {
+  list-style: square;
 }
